@@ -91,7 +91,7 @@ const ProductFilter = () => {
     const collabarations = [
         'FILA x 2PAC',
         'MSGM x FILA',
-        'The Museum DC x FILA',
+        'The Museum DC x Nike',
     ];
     const [expanded, setExpanded] = React.useState(false);
     const handleChange = (panel) => (event, isExpanded) => {

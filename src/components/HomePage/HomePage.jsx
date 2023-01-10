@@ -7,27 +7,27 @@ import './homePageBlock3.css';
 const shopsPhotoItems = [
     {
         name: 'Neon',
-        img: 'https://i.shgcdn.com/eb64ab30-4070-4ae8-8ec1-a7fcaf894e1a/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.street-beat.ru/upload/iblock/0fc/0fcc290a5b27df195d2bf3f76faef4d9.jpg',
     },
     {
         name: 'Velour',
-        img: 'https://i.shgcdn.com/a499c45a-92b4-4be3-922a-754da0383a52/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.street-beat.ru/upload/iblock/493/4936fa9f56ed5ad7928404aea6aa47ab.jpg',
     },
     {
         name: 'Basketball',
-        img: 'https://i.shgcdn.com/ecc3e270-4aa3-463e-9c11-49eb7b8d3149/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.street-beat.ru/upload/iblock/44c/44c174dc02939e0d686ea1ae6477dafd.jpg',
     },
     {
         name: 'Tie Dye',
-        img: 'https://i.shgcdn.com/f5271cea-f06e-4e3f-a289-ca568318fec6/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.street-beat.ru/upload/iblock/0ed/0edd0b71ad74b766f9562a0060c6fe4f.jpg',
     },
     {
         name: 'Premium',
-        img: 'https://i.shgcdn.com/6fbde259-52b7-4faa-a0a0-ee1e12832b64/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.street-beat.ru/upload/iblock/38f/38ff90a6833e5396edbb1c5a80e7a5a2.jpg',
     },
     {
         name: 'One World',
-        img: 'https://i.shgcdn.com/91f6f44c-5594-497e-86f0-df470468dd2e/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+        img: 'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1344,c_limit/5e4a0ef7-a2c9-483a-8e5b-45d8277db19d/nike-just-do-it.jpg',
     },
 ];
 
@@ -41,9 +41,10 @@ const HomePage = () => {
             <Grid>
                 <Box sx={{ width: '100%', marginBottom: 5 }}>
                     <img
-                        src="https://i.shgcdn.com/19ca41e4-02d3-49db-a070-3d2dceac92eb/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                        src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1344,c_limit/1d6f3383-69c7-4c79-be54-e4b2f9946599/nike-just-do-it.png"
                         alt=""
                         width={'100%'}
+
                     />
                 </Box>
                 <Grid
@@ -68,7 +69,7 @@ const HomePage = () => {
                                 },
                             }}
                             className="image-one"
-                            src="https://i.shgcdn.com/8e7a4ef3-eec9-475e-859a-3e05a60a83ce/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                            src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_441,c_limit/012201f7-1de7-450d-93c7-0a498e52fc84/nike-just-do-it.jpg"
                             alt=""
                         />
                     </Box>
@@ -79,20 +80,8 @@ const HomePage = () => {
                             alignItems: 'center',
                         }}
                     >
-                        <h1 className="text-one">FILA Varsity Collection</h1>
-                        <Button
-                            variant="contained"
-                            sx={{
-                                backgroundColor: '#0a203f',
-                                color: 'white',
-                                width: '260px',
-                                height: '70px',
-                                mb: '50px',
-                            }}
-                            onClick={() => navigate('/products')}
-                        >
-                            SHOP NOW
-                        </Button>
+
+
                         <Box
                             sx={{
                                 display: {
@@ -104,7 +93,7 @@ const HomePage = () => {
                             {' '}
                             <img
                                 className="image-two"
-                                src="https://i.shgcdn.com/62ec4c91-8e59-4994-b7d3-4b64e01f944c/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_441,c_limit/a457ea16-f2a3-48fe-9a07-6ac88217d17f/nike-just-do-it.jpg"
                                 alt=""
                             />
                         </Box>
@@ -125,12 +114,12 @@ const HomePage = () => {
                     <div>
                         <img
                             className="mainPhoto"
-                            src="https://i.shgcdn.com/559ad64b-379f-497f-aa5e-ab10a71d3d7e/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                            src="abra-fun-p-oboi-s-krossovkami-naik-25.jpg"
                             alt=""
                         />
                     </div>
                     <div className="headerMain">
-                        <h3>FILA Atrani Collection</h3>
+                        <h3>Nike Atrani Collection</h3>
                         <Button
                             variant="contained"
                             sx={{
@@ -154,15 +143,15 @@ const HomePage = () => {
                     >
                         <div className="center_div">
                             <div className="left_div">
-                                <h3 className="text-3">Collabs in reveiw</h3>
+                                <h3 className="text-3"></h3>
                                 <img
-                                    src="https://i.pinimg.com/originals/1e/b8/eb/1eb8ebf951df90868dea9d36eb9eb31a.png"
+                                    src=""
                                     alt=""
                                 />
                             </div>
                             <div className="right_div">
                                 <img
-                                    src="https://assets.gq.ru/photos/6156fbde484af2ce1241a3db/16:9/w_2560%2Cc_limit/FILA_1%2520%25D1%2584%25D0%25B0%25D0%25B9%25D0%25BD%25D0%25B0%25D0%25BB.jpg"
+                                    src=""
                                     alt=""
                                 />
                             </div>
@@ -174,11 +163,11 @@ const HomePage = () => {
                 <Box>
                     <img
                         width="100%"
-                        src="https://i.shgcdn.com/8fa648bd-3bf9-47b7-ab75-27ca341c8960/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                        src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1344,c_limit/5e4a0ef7-a2c9-483a-8e5b-45d8277db19d/nike-just-do-it.jpg"
                         alt=""
                     />
 
-                    <h1 className="text">Hailey for FILA</h1>
+                    <h1 className="text">Hailey for Nike</h1>
                     <Box
                         sx={{
                             display: 'flex',

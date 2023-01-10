@@ -64,7 +64,7 @@ const ProductContextProvider = ({ children }) => {
         getProducts();
     }
 
-    //! ===============FILTER
+
     const navigate = useNavigate();
     const location = useLocation();
 

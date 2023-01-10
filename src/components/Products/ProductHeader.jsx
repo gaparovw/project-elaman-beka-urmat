@@ -28,15 +28,15 @@ const ProductHeader = () => {
                         marginTop: '10px',
                     }}
                 >
-                    <Link href="https://www.fila.com/search?cgid=root">
-                        FILA /{'shoes '}
+                    <Link href="">
+                        Nake/{'shoes '}
                     </Link>
                 </Typography>
             </Box>
 
             <Box sx={{ position: 'relative' }}>
                 <img
-                    src="https://i.shgcdn.com/1e2ce2e7-63d8-4bc1-ae1d-4c910df9ce52/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                    src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1344,c_limit/a83173e2-4803-434a-9fe6-b8d09bcf3e44/nike-just-do-it.jpg"
                     width="100%"
                     height="30%"
                     alt="banner"
@@ -66,7 +66,7 @@ const ProductHeader = () => {
                         fontWeight: '800',
                     }}
                 >
-                    Shoes + Sneakers
+
                 </Typography>
                 <Typography
                     align="center"
@@ -100,7 +100,7 @@ const ProductHeader = () => {
                         },
                     }}
                 >
-                    The Latest Styles for Men + Women
+
                 </Typography>
             </Box>
         </Box>

@@ -5,14 +5,14 @@ import { navbarContext } from "../../contexts/NavabarContext";
 const NavbarHover = () => {
     const { setHover } = useContext(navbarContext);
     const contact = [
-        "FILA USA Careers",
-        "FILA USA Careers",
-        "FILA Online Careers",
+        "Nike USA Careers",
+        "Nike USA Careers",
+        "Nike Online Careers",
         "Idea Submission",
         "Preferred Player",
         "Wholesaler Inquiries",
     ];
-    const corporate = ["FILA Holdings", "ESG", "FILA News"];
+    const corporate = ["Nike Holdings", "ESG", "Nike News"];
     const policies = ["Terms of Use", "Privacy Policy", "Accessibility"];
     const resources = [
         "Account",

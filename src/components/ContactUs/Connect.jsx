@@ -47,7 +47,7 @@ const Connect = () => {
 
                 <Link
                     className="icon-instagram"
-                    href="https://www.instagram.com/filausa/"
+                    href="https://www.instagram.com/"
                 >
                     <InstagramIcon sx={{ fill: "#0b1f3f", fontSize: "2rem" }} />
                 </Link>

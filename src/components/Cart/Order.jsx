@@ -36,12 +36,12 @@ const Order = () => {
                             {" "}
                             <img
                                 className="order-afterpay-img"
-                                src="https://www.fila.com/on/demandware.static/Sites-FILA-Site/-/default/dw4d5367c4/images/afterpay-logo-mono.png"
+                                src=""
                                 alt=""
                             />
                             <a href="#" className="order-afterpay-info">
                                 <img
-                                    src="https://www.fila.com/on/demandware.static/Sites-FILA-Site/-/default/dw1bce4b6a/images/tool-tip.svg"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTETEyOMn-RZSaM62202tHKc6mEfRKBWVgsgQ&usqp=CAU"
                                     alt=""
                                 />
                             </a>
