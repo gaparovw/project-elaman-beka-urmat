@@ -159,7 +159,7 @@ const HomePage = () => {
                     </Box>
                 </div>
 
-                {/* //! BLOCK-3 SULTAN */}
+                {/* //! BLOCK-3  */}
                 <Box>
                     <img
                         width="100%"

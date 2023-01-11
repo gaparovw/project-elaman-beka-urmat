@@ -7,7 +7,7 @@ const NavbarHover = () => {
     const contact = [
         "Nike USA Careers",
         "Nike USA Careers",
-        "Nike Online Careers",
+        "nike Online Careers",
         "Idea Submission",
         "Preferred Player",
         "Wholesaler Inquiries",

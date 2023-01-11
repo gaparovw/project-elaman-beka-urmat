@@ -48,14 +48,14 @@ const Footer = () => {
     };
 
     const contact = [
-        'FILA USA Careers',
-        'FILA USA Careers',
-        'FILA Online Careers',
+        'Nike USA Careers',
+        'Nike USA Careers',
+        'Nike Online Careers',
         'Idea Submission',
         'Preferred Player',
         'Wholesaler Inquiries',
     ];
-    const corporate = ['FILA Holdings', 'ESG', 'FILA News'];
+    const corporate = ['Nike Holdings', 'ESG', 'Nike News'];
     const policies = ['Terms of Use', 'Privacy Policy', 'Accessibility'];
     const resources = [
         'Account',
@@ -501,7 +501,7 @@ const Footer = () => {
                             },
                         }}
                     >
-                        Join FILA
+                        Join Nike
                     </Typography>
 
                     <List>
@@ -516,13 +516,13 @@ const Footer = () => {
                             }}
                         >
                             Sign up for exclusive offers, first looks at
-                            collaborations, and all things FILA.
+                            collaborations, and all things Nike.
                         </ListItem>
 
                         <Button
                             className="btn btn-modal-sign-up"
                             type="btn"
-                            value="Sign Up to Join FILA"
+                            value="Sign Up to Join Nike"
                             sx={{
                                 width: '100%',
                                 borderRadius: '0px',
@@ -537,7 +537,7 @@ const Footer = () => {
                             onClick={() => navigate('/auth')}
                         >
                             <EmailOutlinedIcon />
-                            Sign Up to Join FILA
+                            Sign Up to Join Nike
                         </Button>
 
                         <ListItem
@@ -564,7 +564,7 @@ const Footer = () => {
                             <ListItem>
                                 <Link
                                     className="icon-twitter"
-                                    href="https://twitter.com/FILAUSA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                                    href="https://twitter.com/nike"
                                 >
                                     <TwitterIcon />
                                 </Link>
@@ -572,7 +572,7 @@ const Footer = () => {
                             <ListItem>
                                 <Link
                                     className="icon-instagram"
-                                    href="https://www.instagram.com/filausa/"
+                                    href="https://www.instagram.com/nike/"
                                 >
                                     <InstagramIcon />
                                 </Link>
@@ -580,7 +580,7 @@ const Footer = () => {
                             <ListItem>
                                 <Link
                                     className="icon-facebook"
-                                    href="https://www.facebook.com/filausa/"
+                                    href="https://ru-ru.facebook.com/nike/"
                                 >
                                     <FacebookIcon />
                                 </Link>
@@ -611,21 +611,18 @@ const Footer = () => {
                     }}
                 >
                     <a
-                        href="https://www.fila.com/us"
+                        href=""
                         sx={{
                             width: '90px',
                             height: '40px',
                         }}
                     >
-                        <img
-                            src="https://logodownload.org/wp-content/uploads/2017/06/fila-logo-15.png"
-                            alt="fila"
-                        />
+
                     </a>
 
                     <Typography>
                         {' '}
-                        © 2022 FILA Luxembourg, S.a.r.l. All Rights Reserved{' '}
+                        © 2022 Nike Luxembourg, S.a.r.l. All Rights Reserved{' '}
                     </Typography>
                 </Box>
             </Box>

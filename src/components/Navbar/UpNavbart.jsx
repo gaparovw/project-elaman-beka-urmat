@@ -91,7 +91,7 @@ function UpNavbar(props) {
                                 marginLeft: "5px",
                             }}
                         >
-                            Sign Up to Join FILA
+                            Sign Up to Join Nike
                         </Typography>
                     </Box>
                 </Box>
